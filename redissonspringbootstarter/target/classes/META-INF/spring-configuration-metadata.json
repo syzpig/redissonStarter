@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "syz.redisson",
+      "type": "com.syz.redissonStarter.RedissonProperties",
+      "sourceType": "com.syz.redissonStarter.RedissonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "syz.redisson.host",
+      "type": "java.lang.String",
+      "description": "redis的服务器地址",
+      "sourceType": "com.syz.redissonStarter.RedissonProperties",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "syz.redisson.port",
+      "type": "java.lang.Integer",
+      "description": "redis服务器的端口",
+      "sourceType": "com.syz.redissonStarter.RedissonProperties",
+      "defaultValue": 6379
+    },
+    {
+      "name": "syz.redisson.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.syz.redissonStarter.RedissonProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "syz.redisson.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.syz.redissonStarter.RedissonProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
